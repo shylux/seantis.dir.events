@@ -1,5 +1,5 @@
 <metadata>
-    <version>1007</version>
+    <version>1008</version>
     <dependencies>
         <dependency>profile-plone.app.dexterity:default</dependency>
         <dependency>profile-plone.app.event:default</dependency>
@@ -11,6 +11,7 @@
         <dependency>profile-collective.geo.contentlocations:default</dependency>
         <dependency>profile-collective.geo.kml:default</dependency>
         <dependency>profile-collective.geo.settings:default</dependency>
+        <dependency>profile-collective.geo.behaviour:default</dependency>
         <dependency>profile-seantis.dir.base:default</dependency>
     </dependencies>
 </metadata>

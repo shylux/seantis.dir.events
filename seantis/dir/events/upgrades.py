@@ -210,3 +210,11 @@ def upgrade_1006_to_1007(context):
     setup.runImportStepFromProfile(
         'profile-plone.app.event:default', 'browserlayer'
     )
+
+def upgrade_1007_to_1008(context):
+    # add collective.geo.behaviour
+    setup.runAllImportStepsFromProfile(
+        'profile-collective.geo.behaviour:default'
+    )
+
+    add_behavior_to_item(context, 'seantis.dir.events', IEventsDirectoryItem)

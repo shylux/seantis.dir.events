@@ -1,6 +1,11 @@
 
 # Changelog
 
+1.0a4
+-----
+
+- Use seantis.dir.base 1.6 with its new collective.geo libraries
+
 1.0a3
 -----
 

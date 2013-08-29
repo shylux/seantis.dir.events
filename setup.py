@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 import os
 
-version = '1.0a3'
+version = '1.0a4'
 
 zug_require = [
     'ftw.contentmenu',
@@ -54,7 +54,7 @@ setup(name='seantis.dir.events',
           'collective.dexteritytextindexer',
           'collective.z3cform.mapwidget',
           'collective.js.underscore',
-          'seantis.dir.base>=1.5.7',
+          'seantis.dir.base>=1.6',
           'zope.proxy',
           'pytz',
           'python-magic',
