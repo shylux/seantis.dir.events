@@ -212,6 +212,8 @@ def upgrade_1006_to_1007(context):
     )
 
 def upgrade_1007_to_1008(context):
+    setup = getToolByName(context, 'portal_setup')
+
     # add collective.geo.behaviour
     setup.runAllImportStepsFromProfile(
         'profile-collective.geo.behaviour:default'
