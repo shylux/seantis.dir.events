@@ -5,6 +5,7 @@
 -----
 
 - Use seantis.dir.base 1.6 with its new collective.geo libraries
+- Fixes ical export error
 
 1.0a3
 -----
