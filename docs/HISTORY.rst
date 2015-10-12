@@ -5,6 +5,9 @@ Changelog
 1.5.2 (unreleased)
 ~~~~~~~~~~~~~~~~~~
 
+- Move events specific styles from plonetheme.onegov to this package.
+  [lknoepfel]
+
 - Change default date range filter value.
   [msom]
 
